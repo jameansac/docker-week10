@@ -6,7 +6,7 @@ const expressSession = require('express-session')
 const flash = require('connect-flash')
 
 // MongoDB Connection
-mongoose.connect('mongodb+srv://admin:1@cluster0.bg657ap.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://admin:admin@cluster0.6o3yikd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
     useNewUrlParser: true
 })
 
